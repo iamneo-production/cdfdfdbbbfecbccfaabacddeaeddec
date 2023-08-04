@@ -12,7 +12,7 @@ public class StringAdvanceMethod {
 	}
 	public String getInput2() {
 		return input2;
-	} 
+	}
 	public void setInput2(String input2) {
 		this.input2 = input2;
 	}
