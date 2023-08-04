@@ -1,7 +1,7 @@
 package utility;
 
+
 public class StringAdvanceMethod {
-	//Enter the code here...
 	private String input1;
 	private String input2;
 	public String getInput1() {
