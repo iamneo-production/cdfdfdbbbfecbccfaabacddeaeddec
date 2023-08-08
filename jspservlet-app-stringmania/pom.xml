@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
   <dependencies>
     <dependency>
@@ -64,14 +64,7 @@
     <port>8080</port>
     </configuration> 
         </plugin>
- <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>          
-        <configuration>
-            <source>1.6</source>
-            <target>1.6</target>
-        </configuration>
-    </plugin>
+ 
     </plugins>
   </build>
 

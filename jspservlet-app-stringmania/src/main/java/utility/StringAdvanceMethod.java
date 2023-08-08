@@ -26,7 +26,7 @@ public class StringAdvanceMethod {
 
 		while(e != -1){
 			String sub = one.substring(s,e);
-			result +=sub + " ";
+			result = result + sub + " ";
 			s = e + two.length();
 			e = one.indexOf(two, s);
 		}
