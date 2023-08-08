@@ -50,7 +50,7 @@ public class TestStringAdvanceMethod {
 
 	@Test
 	public void testIndexOfMethod() {
-		/*assertEquals("4", sam.indexOf("Javaprogram", "p"));
+		assertEquals("4", sam.indexOf("Javaprogram", "p"));
 		assertEquals("1", sam.indexOf("Java@", "a"));
 		assertEquals("4", sam.indexOf("Java ", " "));
 		try {
@@ -59,6 +59,6 @@ public class TestStringAdvanceMethod {
 			sam.indexOf("", "Java");
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
-		}*/
+		}
 	}
 }
