@@ -9,3 +9,6 @@
 10.56.27.2 - - [08/Aug/2023:14:14:17 +0000] "POST /jspservlet-app-stringmania/level1 HTTP/1.1" 200 1412 http-bio-8080-exec-10 3
 10.56.27.2 - - [08/Aug/2023:14:14:25 +0000] "POST /jspservlet-app-stringmania/level1 HTTP/1.1" 200 1412 http-bio-8080-exec-10 1
 10.56.30.6 - - [08/Aug/2023:14:14:42 +0000] "POST /jspservlet-app-stringmania/level1 HTTP/1.1" 200 1411 http-bio-8080-exec-3 2
+10.56.97.8 - - [08/Aug/2023:14:16:12 +0000] "POST /jspservlet-app-stringmania/level1 HTTP/1.1" 200 1423 http-bio-8080-exec-5 5
+10.56.97.8 - - [08/Aug/2023:14:16:12 +0000] "GET /jspservlet-app-stringmania/assets/style.css HTTP/1.1" 304 - http-bio-8080-exec-6 1
+10.56.27.2 - - [08/Aug/2023:14:16:19 +0000] "POST /jspservlet-app-stringmania/level1 HTTP/1.1" 200 1410 http-bio-8080-exec-8 4
