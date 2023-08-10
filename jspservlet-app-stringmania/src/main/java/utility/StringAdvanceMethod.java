@@ -24,12 +24,12 @@ public class StringAdvanceMethod {
 		int e = one.indexOf(two);
 		String result = "";
 
-		while(e != -1){
-			String sub = one.substring(s,e);
-			result = result + sub + " ";
-			s = e + two.length();
-			e = one.indexOf(two, s);
-		}
+		// while(e != -1){
+		// 	String sub = one.substring(s,e);
+		// 	result = result + sub + " ";
+		// 	s = e + two.length();
+		// 	e = one.indexOf(two, s);
+		// }
 		String last = one.substring(s);
 
 		return result+" "+last;
