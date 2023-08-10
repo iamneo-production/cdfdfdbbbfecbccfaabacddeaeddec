@@ -1,6 +1,7 @@
 package testing;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 import utility.StringAdvanceMethod;
@@ -45,7 +46,7 @@ public class TestStringAdvanceMethod {
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
 		}
-	}
+	} 
 
 	@Test
 	public void testIndexOfMethod() {

@@ -32,7 +32,7 @@ public class StringAdvanceMethod {
 		}
 		String last = one.substring(s);
 
-		return result+last;
+		return result+" "+last;
 	}
 	public String indexOf(String one, String two) {
 		return Integer.toString(one.indexOf(two));
