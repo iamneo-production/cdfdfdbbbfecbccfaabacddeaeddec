@@ -30,7 +30,7 @@ public class StringAdvanceMethod {
 		// 	s = e + two.length();
 		// 	e = one.indexOf(two, s);
 		// }
-		String last = one.substring(s);
+		// String last = one.substring(s);
 
 		return result[0]+" "+result[1];
 	}
