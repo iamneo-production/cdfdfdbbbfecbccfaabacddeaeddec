@@ -17,22 +17,18 @@ public class StringAdvanceMethod {
 		this.input2 = input2;
 	}
 	public String concat(String one, String two){
-		return one.concat(two);
+		return one+two;
 	}
 	public String split(String one, String two){
-		int s = 0;
-		int e = one.indexOf(two);
-		String result = "";
-
-		while(e != -1){
-			String sub = one.substring(s,e);
-			result = result + sub + " ";
-			s = e + two.length();
-			e = one.indexOf(two, s);
-		}
-		String last = one.substring(s);
-
-		return result+" "+last;
+		String[] parts = one.split(two);
+        
+        StringBuilder output = new StringBuilder();
+        for (int i = 0; i < parts.length - 1; i++) {
+            output.append(parts[i]).append("  ");
+        }
+        output.append(parts[parts.length - 1]);
+        
+        return output.toString();
 	}
 	public String indexOf(String one, String two) {
 		return Integer.toString(one.indexOf(two));
