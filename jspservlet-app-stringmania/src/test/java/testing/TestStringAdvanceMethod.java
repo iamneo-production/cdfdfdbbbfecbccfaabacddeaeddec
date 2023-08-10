@@ -46,7 +46,7 @@ public class TestStringAdvanceMethod {
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
 		}
-	} 
+	}
 
 	@Test
 	public void testIndexOfMethod() {
