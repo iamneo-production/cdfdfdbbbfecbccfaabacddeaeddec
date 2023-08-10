@@ -1,5 +1,5 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.updateBuildConfiguration": "automatic",
   "name": "MY-CAL", 
   "version": "0.1.0", 
   "private": true, 
