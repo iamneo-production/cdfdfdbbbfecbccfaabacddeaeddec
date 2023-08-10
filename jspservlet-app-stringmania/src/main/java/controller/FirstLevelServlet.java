@@ -1,4 +1,4 @@
-package controller;
+
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
@@ -75,13 +75,12 @@ public class FirstLevelServlet extends HttpServlet {
 			}
 		}
 
-		if (seeAnswer != null) {
-			if (trim != null) {
+		if (seeAnswer != null && trim != null) {
 				String output = string.trim(input);
 				request.setAttribute("output", output);
 				RequestDispatcher dispatcher = request.getRequestDispatcher("level1.jsp");
 				dispatcher.forward(request, response);
-			}
+			
 		}
 
 		if (secondLevel != null) {
