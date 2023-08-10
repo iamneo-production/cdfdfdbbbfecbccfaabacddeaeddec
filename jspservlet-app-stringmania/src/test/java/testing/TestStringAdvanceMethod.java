@@ -1,9 +1,8 @@
 package testing;
 
-import org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import java.utility.StringAdvanceMethod;
+import utility.StringAdvanceMethod;
 
 public class TestStringAdvanceMethod {
 	StringAdvanceMethod sam = new StringAdvanceMethod();
