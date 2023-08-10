@@ -3,6 +3,8 @@ package testing;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
+import utility.StringMethod;
+
 public class TestStringMethod {
 	StringMethod sm = new StringMethod();
 
