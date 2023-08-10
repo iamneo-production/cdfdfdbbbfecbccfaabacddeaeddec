@@ -21,7 +21,7 @@ public class StringMethod {
     public String length(String input) {
         return Integer.toString(input.length());
     }
-
+ 
     public String trim(String input) {
         return input.trim();
     }

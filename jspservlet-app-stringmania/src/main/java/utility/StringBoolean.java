@@ -26,7 +26,7 @@ public class StringBoolean {
 
     public boolean equals(String input1, String input2) {
         return input1.equals(input2);
-    }
+    } 
 
     public boolean equalsIgnoreCase(String input1, String input2) {
         return input1.equalsIgnoreCase(input2);
