@@ -17,7 +17,14 @@ public class StringAdvanceMethod {
 		this.input2 = input2;
 	}
 	public String concat(String one, String two){
-		return one.concat(two);
+		// return one.concat(two);
+		if (one == null) {
+			one = "";
+		}
+		if (two == null) {
+			two = "";
+		}
+		return two.concat(one);
 	}
 	public String split(String one, String two){
 		// int s = 0;

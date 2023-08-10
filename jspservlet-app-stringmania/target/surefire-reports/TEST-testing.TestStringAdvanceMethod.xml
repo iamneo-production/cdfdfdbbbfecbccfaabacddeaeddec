@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="testing.TestStringAdvanceMethod" time="0.009" errors="1" skipped="0">
+<testsuite tests="4" failures="1" name="testing.TestStringAdvanceMethod" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -60,10 +60,11 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="testing.TestStringAdvanceMethod" name="testSetInputsMethod" time="0"/>
-  <testcase classname="testing.TestStringAdvanceMethod" name="testConcatMethod" time="0.009">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at utility.StringAdvanceMethod.concat(StringAdvanceMethod.java:20)
-	at testing.TestStringAdvanceMethod.testConcatMethod(TestStringAdvanceMethod.java:32)
+  <testcase classname="testing.TestStringAdvanceMethod" name="testConcatMethod" time="0.004">
+    <failure message="expected:&lt;[JavaProgram]&gt; but was:&lt;[ProgramJava]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[JavaProgram]&gt; but was:&lt;[ProgramJava]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at testing.TestStringAdvanceMethod.testConcatMethod(TestStringAdvanceMethod.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,7 +97,7 @@
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
+</failure>
   </testcase>
   <testcase classname="testing.TestStringAdvanceMethod" name="testSplitMethod" time="0"/>
   <testcase classname="testing.TestStringAdvanceMethod" name="testIndexOfMethod" time="0"/>

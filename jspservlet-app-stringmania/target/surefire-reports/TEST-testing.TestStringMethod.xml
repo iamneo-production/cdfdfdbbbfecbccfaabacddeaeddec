@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="testing.TestStringMethod" time="0.001" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="testing.TestStringMethod" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -59,7 +59,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testing.TestStringMethod" name="testLowerMethod" time="0.001"/>
+  <testcase classname="testing.TestStringMethod" name="testLowerMethod" time="0"/>
   <testcase classname="testing.TestStringMethod" name="testSetInputsMethod" time="0"/>
   <testcase classname="testing.TestStringMethod" name="testUpperMethod" time="0"/>
   <testcase classname="testing.TestStringMethod" name="testLengthMethod" time="0"/>
