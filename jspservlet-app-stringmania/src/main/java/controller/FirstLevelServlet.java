@@ -1,5 +1,3 @@
-package controller;
-
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import utility.StringMethod;
 
+public class FirstLevelServlet {
 @WebServlet(urlPatterns = { "/jspservlet-app-stringmania/level1" })
 public class FirstLevelServlet extends HttpServlet {
 
@@ -89,5 +88,7 @@ public class FirstLevelServlet extends HttpServlet {
 		}
 
 	}
+
+}
 
 }
