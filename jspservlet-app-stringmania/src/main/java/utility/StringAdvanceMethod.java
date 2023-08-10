@@ -22,7 +22,7 @@ public class StringAdvanceMethod {
 	public String split(String one, String two){
 		// int s = 0;
 		// int e = one.indexOf(two);
-		String[] result = one.split(two);
+		// String result = "";
 
 		// while(e != -1){
 		// 	String sub = one.substring(s,e);
@@ -32,7 +32,9 @@ public class StringAdvanceMethod {
 		// }
 		// String last = one.substring(s);
 
-		return result[0]+" "+result[1];
+		// return result;
+		String[] result = one.split(two);
+		return result[0]+"  "+result[1];
 	}
 	public String indexOf(String one, String two) {
 		return Integer.toString(one.indexOf(two));

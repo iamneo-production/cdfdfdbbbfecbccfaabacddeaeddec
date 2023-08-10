@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="testing.TestStringBoolean" time="0.028" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="testing.TestStringBoolean" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -59,10 +59,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testing.TestStringBoolean" name="testContainsMethod" time="0.026"/>
-  <testcase classname="testing.TestStringBoolean" name="testSetInputsMethod" time="0"/>
+  <testcase classname="testing.TestStringBoolean" name="testContainsMethod" time="0.006"/>
+  <testcase classname="testing.TestStringBoolean" name="testSetInputsMethod" time="0.001"/>
   <testcase classname="testing.TestStringBoolean" name="testEqualsIgnoreCaseMethod" time="0"/>
-  <testcase classname="testing.TestStringBoolean" name="testStartsWithMethod" time="0.001"/>
+  <testcase classname="testing.TestStringBoolean" name="testStartsWithMethod" time="0"/>
   <testcase classname="testing.TestStringBoolean" name="testEqualsMethod" time="0"/>
-  <testcase classname="testing.TestStringBoolean" name="testEndsWithMethod" time="0.001"/>
+  <testcase classname="testing.TestStringBoolean" name="testEndsWithMethod" time="0"/>
 </testsuite>

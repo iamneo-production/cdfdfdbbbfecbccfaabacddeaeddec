@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: testing.TestStringAdvanceMethod
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
-testConcatMethod(testing.TestStringAdvanceMethod)  Time elapsed: 0.003 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+testConcatMethod(testing.TestStringAdvanceMethod)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.NullPointerException
 	at utility.StringAdvanceMethod.concat(StringAdvanceMethod.java:20)
 	at testing.TestStringAdvanceMethod.testConcatMethod(TestStringAdvanceMethod.java:32)
