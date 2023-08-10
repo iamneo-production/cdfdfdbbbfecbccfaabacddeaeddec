@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="testing.TestStringAdvanceMethod" time="0.012" errors="1" skipped="0">
+<testsuite tests="4" failures="1" name="testing.TestStringAdvanceMethod" time="0.002" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -60,7 +60,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="testing.TestStringAdvanceMethod" name="testSetInputsMethod" time="0"/>
-  <testcase classname="testing.TestStringAdvanceMethod" name="testConcatMethod" time="0.01">
+  <testcase classname="testing.TestStringAdvanceMethod" name="testConcatMethod" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at utility.StringAdvanceMethod.concat(StringAdvanceMethod.java:20)
 	at testing.TestStringAdvanceMethod.testConcatMethod(TestStringAdvanceMethod.java:32)
@@ -98,7 +98,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="testing.TestStringAdvanceMethod" name="testSplitMethod" time="0.002">
+  <testcase classname="testing.TestStringAdvanceMethod" name="testSplitMethod" time="0.001">
     <failure message="expected:&lt;Java [ ]rogram&gt; but was:&lt;Java []rogram&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Java [ ]rogram&gt; but was:&lt;Java []rogram&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
