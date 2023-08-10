@@ -20,14 +20,19 @@ public class StringAdvanceMethod {
 		return one.concat(two);
 	}
 	public String split(String one, String two){
-		String[] parts = one.split(two);
-        
-        StringBuilder output = new StringBuilder();
-        for (String part : parts) {
-            output.append(part).append(" "); // Append two spaces after each part
-        }
-        
-        return output.toString();
+		int s = 0;
+		int e = one.indexOf(two);
+		String result = "";
+
+		while(e != -1){
+			String sub = one.substring(s,e);
+			result = result + sub + " ";
+			s = e + two.length();
+			e = one.indexOf(two, s);
+		}
+		String last = one.substring(s);
+
+		return result+" "+last;
 	}
 	public String indexOf(String one, String two) {
 		return Integer.toString(one.indexOf(two));
