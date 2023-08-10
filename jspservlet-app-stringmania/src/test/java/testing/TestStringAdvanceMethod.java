@@ -2,7 +2,6 @@ package testing;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import utility.StringAdvanceMethod;
 
 public class TestStringAdvanceMethod {
 	StringAdvanceMethod sam = new StringAdvanceMethod();
