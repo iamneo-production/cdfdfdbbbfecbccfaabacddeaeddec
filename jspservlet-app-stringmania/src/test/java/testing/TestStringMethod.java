@@ -1,6 +1,6 @@
 package testing;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertquals;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class TestStringMethod {
 	@Test
 	public void testSetInputsMethod() {
 		sm.setInput("Java");
-		assertEquals("Java", sm.getInput());
+		Assert.assertEquals("Java", sm.getInput());
 		try {
 			sm.setInput(null);
 		} catch (Exception e) {
