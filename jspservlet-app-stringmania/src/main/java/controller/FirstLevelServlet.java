@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import utility.StringMethod;
 
-public class FirstLevelServlet {
 @WebServlet(urlPatterns = { "/jspservlet-app-stringmania/level1" })
 public class FirstLevelServlet extends HttpServlet {
 
@@ -90,7 +89,5 @@ public class FirstLevelServlet extends HttpServlet {
 		}
 
 	}
-
-}
 
 }
